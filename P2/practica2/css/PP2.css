@@ -5,8 +5,9 @@ body,div,ul,li,a,h1,h1,h2,h3,h4{
 
 body{
     --bg-color: color-mix(in srgb, #f62  70%, #fff);
-    --sidebar-color: #fff;
+    --sidebar-color: #f7c4c4;
     --dark-color: #f62;
+    --text-color: #444;
     background-color: var(--bg-color);
     font-family: Montserrat;
 }
@@ -98,11 +99,36 @@ body{
 }
 
 /* SIDEBAR PROFILE MENU STYLES */
-.sidebar_profile{
-    
+.sidebar_profile img{
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.item--profile .profile-option{
+    font-size: .9rem;
+    padding: 0 12px 0 9px;
+    color: inherit;
+}
+
+.item--profile{
+    margin: 12px;
+    width: fit-content;
+    color: var(--text-color);
+}
+
+.item--profile:hover{
+    border-radius: 25px;
+    color: var(--sidebar-color);
+}
+
+.item--profile:hover img{
+    opacity: .7;
+}
+
+.item--profile::before, .item--profile::after{
+    display: none;
 }
 
 .sidebar_form{
     position: absolute;
-    display: none;
 }
