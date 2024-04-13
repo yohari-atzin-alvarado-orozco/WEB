@@ -1,0 +1,33 @@
+body,div,ul,li,a,h1,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --bg-color: color-mix(in srgb, #f62  70%, #fff);
+    --sidebar-color: #fff;
+    --dark-color: #f62;
+    background-color: var(--bg-color);
+}
+/* SIDEBAR STYLES */
+.sidebar{
+    background-color: var(--sidebar-color);
+    position: fixed;
+    height: 100dvh;
+    width: clamp(220px, 20vw, 300px);
+    font-size: clamp(1rem, 2.2vw, 3rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 30px 6px;
+}
+
+.sidebar_nav{
+    flex: 1;
+    display: flex;
+}
+
+.sidebar_form{
+    position: absolute;
+    display: none;
+}
