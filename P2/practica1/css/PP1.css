@@ -17,14 +17,6 @@
     z-index: 2;
 }
 
-h1{
-    margin: 0px;
-    padding: 0px;
-    font-size: 20px;
-    line-height: 50px;
-    margin-left: 10px;
-}
-
 .contenido img{
     position: fixed;
     top: 0;
@@ -37,10 +29,9 @@ h1{
     flex-wrap: wrap;
     color: rgb(0, 119, 128);
     margin-top: 70px;
-    height: 450px;
-    width: 450px;
+    height: 440px;
+    width: 1166px;
     margin-left: 35px;
-    border-radius: 5px 5px 5px 5px;
 }
 
 .fondoContenido{
