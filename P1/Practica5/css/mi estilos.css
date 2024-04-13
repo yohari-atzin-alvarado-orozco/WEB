@@ -1,0 +1,79 @@
+.tarjeta{
+    width: 480px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+        .tarjeta .cabecera{
+            display: flex;
+            padding: 10px;
+            border: rgb(182, 180, 180) solid;
+            border-radius: 10% 10% 0% 0%;
+            font-size: 20px;
+        } 
+        .tarjeta.cabecera img{
+            width: 170px;
+            height: 170px;
+            border-radius: 70%;
+            padding-right: 5px;
+            border: rgb(182, 180, 180);
+        }
+        .tarjeta.cabecera span{
+            flex: 1;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .tarjeta.cuerpo{
+            text-align: justify ;
+            font-size: 18px;
+            padding: 10px;
+        }
+        .tarjeta .pie{
+            border: rgb(182, 180, 180) solid;
+            border-radius: 0% 0% 10% 10%;
+        }
+        .tarjeta .pie button{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            background-color: rgb(126, 106, 143);
+            color: aliceblue;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-right: 10px;
+            padding-left: 10px;
+            
+        }
+
+.colorfondoazul{
+    background-color: rgb(139, 38, 206);
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    border: rgb(182, 180, 180) solid;
+    border-radius: 0%  0%  0%  0%;
+}
+.colorfondovioleta{
+    background-color: rgba(175, 98, 190, 0.575);
+    color: beige;
+    padding: 10px;
+}
+.colorfondoazulclaro{
+    background-color: rgba(156, 145, 170, 0.904);
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    background-color: rgb(15, 9, 0);
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+.alinearcentro{
+    display: flex;
+}
+
