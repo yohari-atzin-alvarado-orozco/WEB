@@ -1,0 +1,62 @@
+.pagina{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.cabecera{
+    background-color: aliceblue;
+    color: aliceblue;
+    overflow: hidden;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.contenido img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    margin-top: 70px;
+    height: 450px;
+    width: 450px;
+    margin-left: 35px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.contenido .izquierda,
+.contenido .centro,
+.contenido .derecha{
+    flex-grow: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.display-6{
+    font-size: initial;
+}
+
+.fondoContenido{
+    background-color: aliceblue;
+}
