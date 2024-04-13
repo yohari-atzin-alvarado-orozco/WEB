@@ -7,11 +7,11 @@
 }
 
 .cabecera{
-    background-color: rgb(38, 137, 224);
-    color: rgb(80, 16, 153);
+    background-color: rgb(168, 105, 228);
+    color: rgb(231, 229, 233);
     overflow: hidden;
     display: flex;
-    height: 50px;
+    height: 80px;
     width: 100%;
     position: relative;
     z-index: 2;
@@ -27,15 +27,15 @@
 .contenido{
     display: flex;
     flex-wrap: wrap;
-    color: rgb(0, 119, 128);
+    color: rgb(0, 6, 7);
     margin-top: 70px;
-    height: 440px;
-    width: 1166px;
+    height: 466px;
+    width: 1300px;
     margin-left: 35px;
 }
 
 .fondoContenido{
-    background-color: blueviolet;
+    background-color: rgb(168, 105, 228);
 }
 
 .contenido .izquierda{
