@@ -83,14 +83,15 @@ nav ul li a {
     width: 95%;
     padding: 0 5px;
     border-radius: 5px;
-    border: 1px solid #211a42;
+    border: 2px solid #211a42;
     outline: none;
 }
-.input-box .textarea{
-    width: 95%;
+
+.textarea{
+    width: 97.5%;
     padding: 10px;
-    border-radius: 5px;
-    border: 3px solid #211a42;
+    border-radius: 4px;
+    border: 2px solid #211a42;
     outline: none;
     flex-wrap: wrap;
     justify-content: center;
