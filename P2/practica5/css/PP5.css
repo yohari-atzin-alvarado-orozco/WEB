@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #5f75b3;
+    text-align:initial;
+    justify-content:center;
+}
+
+header {
+    display: flex; 
+    flex-direction:column-reverse; 
+}
+
+nav {
+    background: #5f75b3;
+    height: 60px; 
+    width: 78%;
+    padding-top: 10px;
+}
+
+label.logo {
+    color: white;
+    font-size: 45px;
+    line-height: 30px;
+    padding: 0 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: #5f75b3 2px solid;
+    background: #5f75b3;
+    display: flex;
+    justify-content: center;
+    background: #556286;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 9px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto {
+    color: rgb(60, 14, 87);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items:baseline;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.input-box input{
+    height: 30px;
+    width: 95%;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #211a42;
+    outline: none;
+}
+.input-box .textarea{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #211a42;
+    outline: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
