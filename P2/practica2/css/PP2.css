@@ -3,19 +3,19 @@ body,div,ul,li,a,h1,h1,h2,h3,h4{
     padding: 0;
 }
 
-label, .sidebar_nav{
+label, .sidebar_nav, body{
     user-select: none;
 }
 
 body{
-    --bg-color: color-mix(in srgb, #f62  70%, #fff);
-    --sidebar-color: #f7c4c4;
-    --dark-color: #f62;
-    --text-color: #444;
+    --bg-color: rgb(105, 19, 19);
+    --sidebar-color: rgb(226, 155, 139);
+    --dark-color: rgb(105, 68, 67);
+    --text-color: rgb(105, 68, 67);
     background-color: var(--bg-color);
-    font-family: Montserrat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-/* SIDEBAR PICTURE STYLES */
+
 .sidebar{
     background-color: var(--sidebar-color);
     position: fixed;
@@ -102,7 +102,6 @@ body{
     filter: hue-rotate(19deg);
 }
 
-/* SIDEBAR PROFILE MENU STYLES */
 .sidebar_profile img{
     border-radius: 50%;
     width: 3rem;
@@ -186,20 +185,66 @@ input[type="checkbox"]:checked ~ label::before{
     display: none;
 }
 
-.sidebar:has(input[type="checkbox"]:checked){
-    width: min-content;
+.rightside{
+    height: 100vh;
+    width: 500px;
+    position: absolute;
+    left: 290px;
+    top: 0;
 }
 
-.sidebar:has(input[type="checkbox"]:checked) picture{
-    width: fit-content;
-    margin-left: .75rem;
+.rightside .content{
+    background-color: rgb(105, 19, 19);;
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0 25px 0 0;
 }
 
-.content{
-    height: 400px;
-    width: 100px;
-    background-color: var(--bg-color);
-    z-index: -1;
-    padding-left: 100px;
-    display: flex;
+.cosas1{
+    margin-left: 20px;
+}
+.cosas1 h2{
+    color: rgb(213, 226, 142);
+}
+
+.cosas1 .btn-outline-primary{
+    color: rgb(213, 226, 142);
+    border-color:rgb(235, 153, 153);;
+}
+
+.cosas1 .btn-outline-primary:hover {
+    background-color: green;
+    color: rgb(247, 245, 245);
+}
+
+.rightside .options{
+    background-color: rgb(105, 19, 19);;
+    height: 513px;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    border-radius: 0 0 25px 0;
+}
+
+.cosas2{
+    margin-left: 20px;
+}
+
+.cosas2 h2, h3, a, label{
+    color: rgb(213, 226, 142);
+}
+
+.cosas2 .form-check-input{
+    display: block;
+    font-size: 1.2rem;
+}
+
+.cosas2 .form-check-input:checked {
+    background-color: rgb(214, 118, 118);
+    border-color: rgb(196, 105, 105);
+    border-width: 2px;
 }
