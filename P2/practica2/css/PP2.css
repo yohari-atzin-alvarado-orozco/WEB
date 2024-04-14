@@ -187,5 +187,19 @@ input[type="checkbox"]:checked ~ label::before{
 }
 
 .sidebar:has(input[type="checkbox"]:checked){
+    width: min-content;
+}
+
+.sidebar:has(input[type="checkbox"]:checked) picture{
     width: fit-content;
+    margin-left: .75rem;
+}
+
+.content{
+    height: 400px;
+    width: 100px;
+    background-color: var(--bg-color);
+    z-index: -1;
+    padding-left: 100px;
+    display: flex;
 }
