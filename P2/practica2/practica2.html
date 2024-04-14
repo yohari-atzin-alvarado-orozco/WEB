@@ -9,38 +9,45 @@
     <title>News</title>
 </head>
 <body>
-    <div class="content">
-        <ul>
-            <li>
-             <p><a>General</a></p>
-            </li>
-           
-            <li>
-               <a href=""><p> Privacy statement</p> </a>
-            </li>
-            
-            <li>
-                <p><a href="">Terms of use</a></p>
-            </li>
-            
-            <li>
-                <a href=""><p>About</p></a>
-            </li>
-        </ul>
-
-        <p><a href="options.html">Options</a></p>
-        <h3>Choose edition</h3>
-            <select id="talent">
-                <option value="option1">Unite States (English)</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
-              </select>
+    <div class="rightside">   
+        <div class="content">
+            <div class="cosas1">
+                <br>
+                <h2>General</h2>
+                <br>
+            <div class="btn-group" role="group" aria-label="Default button group">
+                <button type="button" class="btn btn-outline-primary">Privacy statement</button>
+                <button type="button" class="btn btn-outline-primary">Terms of use</button>
+                <button type="button" class="btn btn-outline-primary">About</button>
+              </div>
               <br>
+        </div>
+
+                <div class="options">
+            <div class="cosas2">
+                <br>
+            <h2>Options</h2>
+                <br><br>
+            <h3>Choose edition</h3>
+                <select id="talent">
+                    <option value="option1">Unite States (English)</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                  </select>
+                  <br><br>
             <h3>Dark Theme Mode (for Articles) </h3>
-            <br>
-        <button>on/off</button>
-                <a href="practica1.html">pagina uno</a>
-        <p><label><input type="checkbox" checked> Breaking News Alerts On</label></p>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
+
+                <br>
+                    <a href="practica1.html">pagina uno</a>
+                <br>
+            <p><label><input type="checkbox" checked> Breaking News Alerts On</label></p>
+            </div>
+
+            </div>
+        </div>
     </div>
 
     <aside class="sidebar">
@@ -109,7 +116,7 @@
         </div>
     </aside>
    
-    
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
