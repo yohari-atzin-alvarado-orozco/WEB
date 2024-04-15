@@ -216,7 +216,7 @@ input[type="checkbox"]:checked ~ label::before{
 }
 
 .cosas1 .btn-outline-primary:hover {
-    background-color: green;
+    background-color: rgb(240, 151, 185);
     color: rgb(247, 245, 245);
 }
 
@@ -247,4 +247,9 @@ input[type="checkbox"]:checked ~ label::before{
     background-color: rgb(214, 118, 118);
     border-color: rgb(196, 105, 105);
     border-width: 2px;
+}
+
+.btn-group{
+    padding: 20px;
+    align-items:center;
 }
