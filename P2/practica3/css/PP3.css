@@ -1,0 +1,79 @@
+.pagina {
+    background-color: rgb(171, 136, 204);
+    height: 100vh;
+    width: calc(100% - 50px);
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: -1;
+}
+
+.izquierda {
+    background-color: rgb(20, 4, 24);
+    height: 100vh;
+    width: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.izquierda .botones {
+    background-color: rgba(185, 91, 169, 0.75);
+    height: 250px;
+    width: 50px;
+    position: absolute;
+    top: 455px;
+}
+
+.botones button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.botones button:hover {
+    background-color: rgb(197, 109, 182);
+    color: white;
+}
+
+.lado{
+    background-color: rgb(136, 136, 136);
+    height: 100vh;
+    width: 500px;
+    margin-left: 0;
+}
+
+.quita{
+    background-color: rgb(218, 218, 218);
+    height: 30px;
+    width: 500px;
+    margin-left: 0px;
+}
+
+.quita button{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.contenido{
+    background-color: rgb(210, 170, 223);
+    height: 100vh;
+    width: 500px;
+    margin-left: auto;
+    margin-top: 0px;
+    float: right;
+}
+
+.contenido .mb-3 input{
+    border-color: rgba(59, 52, 52, 0);
+}
+
+.contenido .seleccionar{
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+}
