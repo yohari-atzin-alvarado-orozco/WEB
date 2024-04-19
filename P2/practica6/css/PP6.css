@@ -1,24 +1,28 @@
 .pagina{
-    background-color: rgb(58, 80, 87);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 100%;
 }
 .alineacion{
     margin: 0 auto;
 }
+.alineacion a{
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
+}
 .alineacion .textos{
-    background-color: antiquewhite;
     height: 150px;
     width: 300px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-150%, -50%);
 }
 
 .alineacion .inicio{
-    background-color: blueviolet;
-    height: 350px;
+    background-color: rgb(238, 234, 241);
+    height: 400px;
     width: 400px;
     position: absolute;
     top: 50%;
@@ -34,5 +38,37 @@
 .alineacion .inicio button{
     height: 50px;
     width: 300px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+.alineacion .pie_de_la_pagina{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+}
+
+.alineacion .contraseña{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.alineacion .inicio input{
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.alineacion label{
+    color: rgb(0, 0, 0);
     margin-left: 50px;
 }
