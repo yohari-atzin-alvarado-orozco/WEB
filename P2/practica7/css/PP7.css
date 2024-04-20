@@ -1,68 +1,50 @@
-.contenedor{
-    background-color: rgb(37, 56, 98);
-}
-.superior{
-    background-color: rgb(172, 44, 227);
-}
-.row ul li{
-    list-style: none;
-    display: inline-flex;
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    left: 20px;
-    border-radius: 10% 10% 10% 10%;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.buscar{
-    margin-top: 30px;
-    background-color: rgb(172, 44, 227);
-    border-color: black;
-}
-.izquierda{
-    text-align: left;
-}
-
-.derecha{
-    text-align: left;
-}
-.derecha img{
-    margin-top: 30px;
-}
-.derecha button{
-    margin-top: 30px;
-    border: none;
-    border-color: white;
-    background-color: rgb(172, 44, 227);
-    font-size: 20px;
-}
-
-.dropdown{
-    margin-top: 30px;
-    background-color: rgb(172, 44, 227);
-    border-color: black;
-}
-.cuerpo{
+.logo{
+    width: 100px;
+    height: 80px;
     align-items: center;
+}
+.alerta{
+    width: 900px;
+    height: 40px;
+
+}
+.alert{
+    width: 440px;
+    height: 40px;
+    align-content: center;
+    margin-left: 330px;
+}
+.container-fluid{
+    background-color: #5f19ec;
+}
+.tc{
+    color: rgb(231, 228, 32);
+    background: transparent;
+}
+.iconos{
+    align-items: center;
+}
+.bg{
+    background-color: #6600ff;
+}
+.text-large{
     text-align: center;
 }
-.cuerpo h2{
-    color: white;
-    font-size: 75px;
+.text-small{
+    font-size: 10px;
+
 }
-.cuerpo label{
-    color: gray;
-    font-size: 25px;
+.ttx{
+    margin-left: 40%;
 }
-.cuerpo button{
-    border-radius: 10% 10% 10% 10%;
-    background-color: rgb(172, 44, 227);
-    font-size: 30px;
+.container{
+    background-color: white;
+    border-radius: 4px;
+
 }
-.cuerpo input{
-    border-radius: 10% 10% 10% 10%;
-    font-size: 25px;
+.container .container{
+    background-color: #656468;
+    width: 95%;
+    height: 50%;
 }
+ 
