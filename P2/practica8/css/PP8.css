@@ -1,0 +1,36 @@
+.superior{
+    background-color: rgb(95, 134, 219);
+}
+
+.row ul li{
+    list-style: none;
+    display: inline-flex;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    left: 20px;
+    background-color: white;
+    border-radius: 10% 10% 10% 10%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 202, 202);
+}
+
+.superior button{
+    background-color: rgb(95, 134, 219);
+    border-color: none;
+    border: none;
+    color: rgb(211, 202, 202);
+}
+
+.superior .links{
+    display: inline-flex;
+    text-align:left ;
+}
+
+.contenido{
+    background-color: rgb(77, 98, 163);
+    text-align: center;
+}
