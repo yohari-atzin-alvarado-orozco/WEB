@@ -1,16 +1,68 @@
-.pagina {
-    background-color: black;
-    color: white;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
+.contenedor{
+    background-color: rgb(37, 56, 98);
 }
-.cabecera {
-    background-color: blue;
-    color: black;
+.superior{
+    background-color: rgb(172, 44, 227);
+}
+.row ul li{
+    list-style: none;
+    display: inline-flex;
+    display: inline;
+    margin: 10px;
     padding: 10px;
+    left: 20px;
+    border-radius: 10% 10% 10% 10%;
 }
-.contenido {
-    transform: translate(35%, 0%);
+a{
+    text-decoration: none;
+    color: white;
+}
+.buscar{
+    margin-top: 30px;
+    background-color: rgb(172, 44, 227);
+    border-color: black;
+}
+.izquierda{
+    text-align: left;
+}
 
+.derecha{
+    text-align: left;
+}
+.derecha img{
+    margin-top: 30px;
+}
+.derecha button{
+    margin-top: 30px;
+    border: none;
+    border-color: white;
+    background-color: rgb(172, 44, 227);
+    font-size: 20px;
+}
+
+.dropdown{
+    margin-top: 30px;
+    background-color: rgb(172, 44, 227);
+    border-color: black;
+}
+.cuerpo{
+    align-items: center;
+    text-align: center;
+}
+.cuerpo h2{
+    color: white;
+    font-size: 75px;
+}
+.cuerpo label{
+    color: gray;
+    font-size: 25px;
+}
+.cuerpo button{
+    border-radius: 10% 10% 10% 10%;
+    background-color: rgb(172, 44, 227);
+    font-size: 30px;
+}
+.cuerpo input{
+    border-radius: 10% 10% 10% 10%;
+    font-size: 25px;
 }
