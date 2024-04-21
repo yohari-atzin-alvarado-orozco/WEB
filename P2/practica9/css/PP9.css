@@ -1,28 +1,91 @@
-.contenedor .superior{
-    background-color: brown;
+.pagina{
+    background-color: rgb(61, 58, 87);
+    height: 100vh;
+    width: 100%;
 }
 
-.contenedor .centro{
-    background-color: aliceblue;
+.cabecera{
+    color: white;
+    background-color: rgb(65, 65, 128);
+    height: 50px;
+}
+.alineacion{
+    margin: 0 auto;
+    background-color: rgb(65, 65, 128);
+    height: 450px;
+    width: 990px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px 50px 50px 50px;
+}
+.alineacion label{
+    color: white;
+    margin-left: 50px;
+}
+.alineacion .inicio input{
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
 }
 
-.info{
-    background-color: bisque;
-    border-color: black;
-    border-radius: 10px;
-}
-
-.info input{
-    border-color: black;
-}
-
-.info button{
-    border-color: black;
-    color: rgb(224, 159, 159);
-    border-radius: 10px;
-}
-
-.informacion{
+.texto{
+    position:fixed;
     text-align: center;
-    background-color: white;
+    top: -4px;
+    left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inicio{
+    position:fixed;
+    text-align: center;
+    top: 5px;
+    left: 350px;
+    text-decoration-line: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.alineacion .imagen{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+
+.imagen svg{
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin-left: 75px;
+}
+
+.alineacion .inicio{
+    background-color: rgb(43, 137, 226);
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    border-radius: 50px 50px 50px 50px;
+}
+.alineacion .inicio textarea{
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.alineacion .boton button{
+    height: 50px;
+    width: 140px;
+    margin-left: 2px;
 }
