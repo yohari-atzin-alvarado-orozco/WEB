@@ -1,50 +1,100 @@
-.logo{
-    width: 100px;
-    height: 80px;
-    align-items: center;
+.pagina {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+    pointer-events: none;
 }
-.alerta{
-    width: 900px;
-    height: 40px;
+.pagina img{
+    top: 40px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: block;
+}
+.cabecera {
+    color: white;
+    padding: 20px;
+}
+.cabecera label{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.cabecera img{
+    top: 0;
+    left: 0;
+    width: 120%;
+    position: absolute;
+    display: block;
+}
+.contenido {
+    margin-top: 40px;
+    width: 500px;
+    height: 600px;
+    transform: translate(80%, 0%);
+    z-index: 1;
+}
 
-}
-.alert{
-    width: 440px;
-    height: 40px;
-    align-content: center;
-    margin-left: 330px;
-}
-.container-fluid{
-    background-color: #5f19ec;
-}
-.tc{
-    color: rgb(231, 228, 32);
-    background: transparent;
-}
-.iconos{
-    align-items: center;
-}
-.bg{
-    background-color: #6600ff;
-}
-.text-large{
+.contenido .parrafoarriba{
     text-align: center;
 }
-.text-small{
-    font-size: 10px;
 
+.contenido .imagen img{
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
-.ttx{
-    margin-left: 40%;
-}
-.container{
-    background-color: white;
-    border-radius: 4px;
 
+.contenido .contenidoabajo{
+    margin-top: 200px;
 }
-.container .container{
-    background-color: #656468;
-    width: 95%;
-    height: 50%;
+
+.contenido .contenidoabajo h1{
+    text-align: center;
 }
- 
+
+.contenido .contenidoabajo p{
+    text-align: center;
+}
+
+.contenido .contenidoabajo button{
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(140%);
+}
+
+.contenido .contenidoabajo input{
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar{
+    background-color: transparent;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.navbar span{
+    height: 40px;
+    width: 40px;
+}
