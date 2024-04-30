@@ -6,7 +6,7 @@
 
 .cabecera{
     color: white;
-    background-color: rgb(150, 61, 61);
+    background-color: rgba(150, 61, 61, 0.877);
     height: 50px;
 }
 .alineacion{
@@ -33,7 +33,7 @@
 .texto{
     position:fixed;
     text-align: center;
-    top: -4px;
+    top: 6px;
     left: 60px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -41,7 +41,7 @@
 .inicio{
     position:fixed;
     text-align: center;
-    top: 5px;
+    top: 7px;
     left: 350px;
     text-decoration-line: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -77,7 +77,7 @@
     left: 50%;
     transform: translate(-110%, -50%);
     border-radius: 50px 50px 50px 50px;
-    box-shadow:  15px 0 10px rgb(150, 61, 61);
+    box-shadow:  0px 15px 15px 0px rgb(85, 69, 69);
 }
 .alineacion .inicio textarea{
     height: 50px;

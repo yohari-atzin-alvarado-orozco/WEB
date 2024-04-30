@@ -1,259 +1,86 @@
-body,div,ul,li,a,h1,h1,h2,h3,h4{
-    margin: 0;
-    padding: 0;
-}
-
-label, .sidebar_nav, body{
-    user-select: none;
-}
-
-body{
-    --bg-color: rgb(105, 19, 19);
-    --sidebar-color: rgb(226, 155, 139);
-    --dark-color: rgb(105, 68, 67);
-    --text-color: rgb(105, 68, 67);
-    background-color: var(--bg-color);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    align-content: first baseline;
-}
-
-.sidebar{
-    background-color: var(--sidebar-color);
-    position: fixed;
-    height: 100dvh;
-    width: clamp(220px, 20vw, 300px);
-    font-size: clamp(1rem, 2.2vw, 3rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px 0 30px 6px;
-}
-
-.sidebar_nav{
-    flex: 1;
-    display: flex;
-}
-
-.sidebar_nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
-.sidebar_item{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: .9rem;
-    padding-right: 6px;
-    color: var(--dark-color);
-    border-radius: 36px 0 0 36px;
-    position: relative;
-}
-
-.sidebar_item span{
-    padding: 12px;
-    font-size: 2rem;
-}
-
-.sidebar_item a{
-    color: inherit;
-    text-decoration: none;
-}
-
-.sidebar_item:hover{
-    background-color: var(--bg-color);
-    color: var(--sidebar-color);
-}
-
-.sidebar_item:before,
-.sidebar_item:after{
-    content: '';
-    background-color: var(--bg-color);
-    position: absolute;
-    right: 0;
-    width: 18px;
-    height: 18px;
-    background-color: transparent;
-}
-
-.sidebar_item:hover::before{
-    top: -18px;
-    border-bottom-right-radius: 25px;
-    box-shadow: 4px 4px 0 4px var(--bg-color);
-}
-.sidebar_item:hover::after{
-    bottom: -18px;
-    border-top-right-radius: 25px;
-    box-shadow: 4px -4px 0 4px var(--bg-color);
-}
-
-.sidebar_picture{
-    margin-left: 1.5rem;
-    position: relative;
-    z-index: 10;
-}
-
-.sidebar_picture img{
-    width: clamp(4rem, 75%, 20rem);
-    margin: auto;
-    opacity: .82;
-    filter: hue-rotate(19deg);
-}
-
-.sidebar_profile img{
-    border-radius: 50%;
-    width: 3rem;
-}
-
-.item--profile .profile-option{
-    font-size: .9rem;
-    padding: 0 12px 0 9px;
-    color: inherit;
-}
-
-.item--profile{
-    margin: 12px;
-    width: fit-content;
-    color: var(--text-color);
-}
-
-.item--profile:hover{
-    border-radius: 25px;
-    color: var(--sidebar-color);
-}
-
-.item--profile:hover img{
-    opacity: .7;
-}
-
-.item--profile::before, .item--profile::after{
-    display: none;
-}
-
-input[type="checkbox"]{
-    display: none;
-}
-
-.sidebar_form{
-    position: absolute;
-    z-index: 20;
-    right: -1rem;
-}
-
-.sidebar label{
-    position: relative;
-    color: var(--sidebar-color);
-    background-color: var(--bg-color);
-    font-size: 2rem;
-    border-radius: 50%;
-    padding: .4rem;
-}
-
-.sidebar label::before,
-.sidebar label::after{
-    content: '';
-    background-color: var(--bg-color);
-    position: absolute;
-    width: 10px;
-    height: 25px;
-    background-color: transparent;
-}
-
-.sidebar label::before{
-    top: -25px;
-    left: 19px;
-    border-bottom-right-radius: 25px;
-    box-shadow: 4px 4px 0 4px var(--bg-color);
-}
-
-.sidebar label::after{
-    bottom: -25px;
-    left: 19px;
-    border-top-right-radius: 25px;
-    box-shadow: 4px -4px 0 4px var(--bg-color);
-}
-
-input[type="checkbox"]:checked ~ label{
-    color: var(--bg-color);
-    background-color: var(--sidebar-color);
-}
-
-input[type="checkbox"]:checked ~ label::after,
-input[type="checkbox"]:checked ~ label::before{
-    display: none;
-}
-
-.rightside{
+.pagina {
+    background-color: rgb(224, 224, 238);
     height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.barraizquierda {
+    background-color: rgb(88, 120, 129);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.barraizquierda button{
+    background-color: rgb(41, 187, 231);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.barraizquierda svg{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.lodemas{
+    background-color: rgb(182, 182, 182);
+    color: black;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
     width: 500px;
-    position: absolute;
-    left: 290px;
-    top: 0;
-}
-
-.rightside .content{
-    background-color: rgb(105, 19, 19);;
-    height: 150px;
-    width: 500px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 0 25px 0 0;
-}
-
-.cosas1{
-    margin-left: 20px;
-}
-.cosas1 h2{
-    color: rgb(213, 226, 142);
-}
-
-.cosas1 .btn-outline-primary{
-    color: rgb(213, 226, 142);
-    border-color:rgb(235, 153, 153);;
-}
-
-.cosas1 .btn-outline-primary:hover {
-    background-color: rgb(240, 151, 185);
-    color: rgb(247, 245, 245);
-}
-
-.rightside .options{
-    background-color: rgb(105, 19, 19);;
-    height: 513px;
-    width: 500px;
-    position: absolute;
-    left: 0;
-    top: 150px;
-}
-
-.cosas2{
-    margin-left: 20px;
-}
-
-.cosas2 h2, h3, a, label{
-    color: rgb(213, 226, 142);
-}
-
-.cosas2 .form-check-input{
+    position: relative;
+    z-index: 2;
     display: block;
-    font-size: 1.2rem;
+    float: left;
 }
 
-.cosas2 .form-check-input:checked {
-    background-color: rgb(214, 118, 118);
-    border-color: rgb(196, 105, 105);
-    border-width: 2px;
+.lodemas .arriba{
+    background-color: rgb(182, 182, 182);
+    position: top;
+    display: flex;
+    height: 110px;
+    width: 500px;
+    margin: 10px;
 }
 
-.btn-group{
-    padding: 20px;
+.arribacontenido button{
+    margin-left: 100%;
+    margin-top: 5px;
 }
 
-.salida{
-    padding: 15px;
-    align-items: center;
+.lodemas .abajo{
+    background-color: rgb(213, 209, 224);
+    color:black;
+    position: fixed;
+    display: flex;
+    height: 590px;
+    width: 500px;
+}
+
+.abajo select{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+.abajocontenido{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
 }
