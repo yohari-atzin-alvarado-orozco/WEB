@@ -31,7 +31,7 @@
     text-align: center;
     background-color: rgba(231, 175, 108, 0.748);
 }
-@media only screen and (max-width: 100%) {
+@media only screen and (max-width: 800px) {
     .imagen {
       display: none;
     }
