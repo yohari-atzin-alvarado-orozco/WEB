@@ -11,33 +11,32 @@ body{
     justify-content: center;
 }
 .container{
-    border: solid rgb(196, 81, 104);
+    border: solid rgb(0, 0, 0);
     position: relative;
-    max-width: 900px;
+    max-width: 10000px;
     width: 100%;
     border-radius: 6px;
     padding: 30px;
     margin: 0 15px;
     background-color: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
 }
 .container header{
     position: relavive;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     border-radius: 7px;
     text-align: center;
-    color: #f5dada;
-    background-color: #aa5959;
+    color: #ffffff;
+    background-color: #21189e;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .container form{
     position: relative;
-    margin-top: 16px; 
-    min-height: 490px;
-    background-color: #f09e9ec5;
+    margin-top: 10px; 
+    min-height: 200px;
+    background-color: #e4e4e4c5;
     border-radius: 9px;
 }
 .container form .details{
@@ -80,7 +79,7 @@ form .fields .input-field{
 .input-field label{
     font-size: 17px;
     font-weight: 500;
-    color:#941349;
+    color:#5b82d4;
 }
 .input-field input{
     outline: none;
@@ -88,7 +87,7 @@ form .fields .input-field{
     color: #333;
     font-weight: 400;
     border-radius: 5px;
-    border: 1px solid #9e3030;
+    border: 1px solid #000000;
     padding: 0 15px;
     height: 42px;
     margin: 8px 0;
