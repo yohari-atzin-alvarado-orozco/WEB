@@ -1,5 +1,5 @@
 .pagina {
-    background-color: rgb(171, 136, 204);
+    background-color: rgb(235, 216, 253);
     height: 100vh;
     width: calc(100% - 50px);
     position: fixed;
@@ -40,14 +40,14 @@
 }
 
 .lado{
-    background-color: rgb(136, 136, 136);
+    background-color: rgb(112, 87, 87);
     height: 100vh;
     width: 500px;
     margin-left: 0;
 }
 
 .quita{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(255, 255, 255);
     height: 30px;
     width: 500px;
     margin-left: 0px;
