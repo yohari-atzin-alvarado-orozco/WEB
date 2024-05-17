@@ -50,18 +50,9 @@
     float: left;
 }
 
-.lodemas .arriba{
-    background-color: rgb(182, 182, 182);
-    position: top;
-    display: flex;
-    height: 110px;
-    width: 500px;
-    margin: 10px;
-}
-
 .arribacontenido button{
     margin-left: 80%;
-    margin-top: 5px;
+    margin-top: -20px;
     height: 40px;
 
 }
