@@ -1,92 +1,38 @@
-.pagina{
-    background-color: grey;
+.contenedor{
+    background-color: #bfb2b2;
     height: 100vh;
+}
+.contenedor .superior{
+    background-color: #8f3a3ac5;
+}
+.contenedor .centro{
+
     width: 100%;
 }
-
-.cabecera{
-    color: white;
-    background-color: rgba(150, 61, 61, 0.877);
-    height: 50px;
-}
-.alineacion{
-    margin: 0 auto;
-    background-color: rgb(153, 152, 152);
-    height: 450px;
-    width: 990px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50px 50px 50px 50px;
-}
-.alineacion label{
-    color: white;
-    margin-left: 50px;
-}
-.alineacion .inicio input{
-    height: 40px;
-    width: 300px;
-    margin-left: 50px;
-}
-
-.texto{
-    position:fixed;
-    text-align: center;
-    top: 6px;
-    left: 60px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.inicio{
-    position:fixed;
-    text-align: center;
-    top: 7px;
-    left: 350px;
-    text-decoration-line: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.p{
-    text-align: center;
-    padding-top: 8px;
-}
-
-.alineacion .imagen{
+.info svg{
+    width: 50px;
     height: 60px;
-    width: 10px;
-    position: absolute;
-    top: 15%;
-    left: 44%;
-    transform: translate(50%, -50%);
+    color: #ad5858;
 }
-
-.imagen svg{
-    color: white;
-    height: 150px;
-    width: 150px;
-    margin-left: 75px;
+.info{
+    background-color: wheat;
+    border-color: black;
+    border-radius: 10px;
 }
-
-.alineacion .inicio{
-    background-color: rgb(248, 231, 193);
-    height: 350px;
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-110%, -50%);
-    border-radius: 50px 50px 50px 50px;
-    box-shadow:  0px 15px 15px 0px rgb(85, 69, 69);
+.info input{
+    border-color: #ad5858;
 }
-.alineacion .inicio textarea{
-    height: 50px;
-    width: 300px;
-    margin-left: 50px;
+.info button{
+    border-color: #ad5858;
+    color: #ad5858;
+    border-radius: 10px;
 }
-
-.alineacion .boton button{
-    height: 50px;
-    width: 140px;
-    margin-left: 2px;
+.informacion{
+    text-align: center;
+    background-color: rgba(231, 175, 108, 0.748);
 }
+@media only screen and (max-width: 800px) {
+    .imagen {
+      display: none;
+    }
+  }
