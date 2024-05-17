@@ -37,14 +37,13 @@ nav ul {
     float: right;
     margin-right: 20px;
     border-radius: 5px;
-    border: #00fdc6 2px solid;
     display: flex;
     justify-content: center;
     background: #13c09be3;
 }
 
 nav ul li {
-    display: inline-block;
+    display:block;
     line-height: 50px;
     margin: 0 9px;
 }
@@ -52,7 +51,7 @@ nav ul li {
 nav ul li a {
     color: rgb(0, 0, 0);
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .texto {
@@ -90,7 +89,7 @@ nav ul li a {
     width: 97.5%;
     padding: 10px;
     border-radius: 4px;
-    border: 2px solid #211a42;
+    border: 2px solid #1a4236;
     outline: none;
     flex-wrap: wrap;
     justify-content: center;
