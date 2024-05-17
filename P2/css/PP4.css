@@ -37,7 +37,7 @@ body{
     margin-top: 10px; 
     min-height: 200px;
     background-color: #e4e4e4c5;
-    border-radius: 9px;
+    border-radius: 5px;
 }
 .container form .details{
     margin-top: 30px;
@@ -48,7 +48,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     margin: 6px 0;
-    color: #030303;
+    color: #000000;
 }
 
 .container form .title{
@@ -86,7 +86,6 @@ form .fields .input-field{
     font-size: 14px;
     color: #333;
     font-weight: 400;
-    border-radius: 5px;
     border: 1px solid #000000;
     padding: 0 15px;
     height: 42px;
