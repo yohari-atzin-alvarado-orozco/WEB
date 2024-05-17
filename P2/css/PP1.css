@@ -7,7 +7,7 @@
 }
 
 .cabecera{
-    background-color: rgb(168, 105, 228);
+    background-color: #00a5db;
     color: rgb(231, 229, 233);
     overflow: hidden;
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 .fondoContenido{
-    background-color: rgb(168, 105, 228);
+    background-color: #00a5db;
 }
 
 .contenido .izquierda{
