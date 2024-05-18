@@ -1,38 +1,183 @@
-.contenedor{
-    background-color: #bfb2b2;
-    height: 100vh;
+.nav{
+    background-color: rgb(147, 64, 72);
+    width: 1260px;
+    height: 50px;
 }
-.contenedor .superior{
-    background-color: #ad5858;
+.texto{
+    color: rgb(250, 240, 240);
+    font-size: 13px;
 }
-.contenedor .centro{
-
-    width: 100%;
-}
-.info svg{
-    width: 50px;
-    height: 60px;
-    color: #ad5858;
-}
-.info{
-    background-color: wheat;
-    border-color: black;
-    border-radius: 10px;
-}
-.info input{
-    border-color: #ad5858;
-}
-.info button{
-    border-color: #ad5858;
-    color: #ad5858;
-    border-radius: 10px;
-}
-.informacion{
+.cabecera{
+    background-color: rgb(216, 212, 211);
+    width: 1260px;
+    height:50px;
     text-align: center;
-    background-color: rgba(231, 175, 108, 0.748);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-@media only screen and (max-width: 800px) {
-    .imagen {
-      display: none;
+.cuerpo{
+    background-color: rgb(216, 212, 211);
+    width: 1260px;
+    height: 600px;
+    
+}
+.pie{
+    background-color: rgb(216, 212, 211);
+    width: 1260px;
+    height: 100px;
+}
+.izquierdo{
+    float: left;
+}
+.derecho{
+    float: right;
+    width: 880px;
+    height: 40px;
+    text-align: center;
+    margin-right: 25px;
+    background-color: rgb(147, 64, 72);
+    
+}
+.columna1{
+    background-color: rgb(147, 64, 72);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+.columna1 span{
+    position: relative;
+    bottom: -6px;
+    color: aliceblue;
+}
+.foto{
+    background-color: rgb(216, 212, 211);
+    width: 300px;
+}
+.form-select{
+    width: 300px;
+}
+.navbar{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    font-size: 16px;
+}
+.rounded{
+    width: 300px;
+}
+.columna2{
+    font-size: 13px;
+    color: white;
+}
+.formulario{
+    text-align: left;
+    height: 500px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: file;
+}
+.form-control{
+    width: 276px;
+    height: 30px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: file;
+}
+.contenedor2 .form-control{
+    width: 426px;
+    height: 30px;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: file;
+}
+.contenedor3 .form-control{
+    width: 426px;
+    height: 30px;
+}
+.contenedor4{
+    display: flex;
+    flex-direction: file;
+}
+.contenedor4 .form-control{
+    width: 201px;
+    height: 30px;
+}
+.contenedor5{
+    display: flex;
+    flex-direction: file;
+}
+.contenedor5 .form-control{
+    width: 276px;
+    height: 30px;
+}
+.contenedor6{
+    display: flex;
+    flex-direction: file;
+}
+.contenedor6 .form-control{
+    width: 300px;
+    height: 40px;
+}
+.wit1{
+  
+    background-color: rgb(216, 212, 211);
+    width: 1260px;
+    height:50px;
+    text-align: center;
+    border: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+.abajo{
+    align-items: center;
+    align-content: center;
+    margin-left: 600px;
+    background-color: gray;
+    color: white;
+    border-color: gray;
+    
+}
+.pie{
+    align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+
+    .nav {
+        width: 100%;
     }
-  }
+
+    .cabecera {
+        width: 100%;
+    }
+
+    .cuerpo {
+        width: 100%;
+        padding: 10px; 
+    }
+
+    .izquierdo,
+    .derecho {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    .columna1 {
+        padding: 5px; 
+        margin-bottom: 10px; 
+    }
+
+    .formulario {
+        padding: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-bottom: 5px; 
+    }
+}
